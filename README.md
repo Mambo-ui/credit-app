@@ -31,3 +31,8 @@ If a card number fails validation, it displays an error message instead of the b
 Example Usage:
 An example usage scenario is provided at the end of the index.ts file.
 You can modify the inputCommands array to simulate different transactions and see the output summary.
+
+npm init -y
+npm install typescript --save-dev
+npx tsc --init
+run "npx tsc && node index.js" to compile the typescript file into javascript
